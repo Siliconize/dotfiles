@@ -1,9 +1,11 @@
 "Change color of whitespace chars
 hi Whitespace ctermfg=11
 "highlight all whitespace chars
+
 match Whitespace /\s/
 "
 set list
+
 set listchars+=eol:¬,trail:~,extends:>,precedes:<,space:·
 set listchars+=tab:\│\ 
 set noexpandtab
@@ -71,8 +73,8 @@ set mouse=a
 set keymodel=startsel,stopsel
 
 " Performance
-set lazyredraw
-set ttyfast
+"set lazyredraw
+"set ttyfast
 
 " Splits
 " Movement
@@ -89,3 +91,6 @@ set splitright
 "Change Split Char
 :set fillchars+=vert:\│
 
+colorscheme zaibatsu
+
+set showtabline=2
